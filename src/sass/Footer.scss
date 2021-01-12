@@ -1,0 +1,46 @@
+.contact{
+  background-image: url('../images/stardust.png');
+  background-attachment: fixed;
+  box-shadow: 0 1px 6px 2px rgb(109, 109, 109);
+  padding:  $marginFromLeft;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: $fzGlobal;
+
+  &__title{
+    margin: $marginFromLeft;
+    font-weight: 400;
+    font-size: 4em;
+    @include breakpoint(sm){
+      font-size: 7em;
+    }
+  }
+
+  &__email, &__phone{
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  &__social{
+    display: flex;
+    justify-content: center;
+    margin: $marginFromLeft 0 $marginFromLeft*2;
+
+    &--item{
+      margin: 5px;
+      color: rgba(255, 255, 255, 0.582);
+      transition: .2s;
+
+      &:hover{
+        color: white;
+      }
+    }
+
+    
+  }
+  &__copy{
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,120 @@
+.header {
+  background-color: #d1d1db; 
+  background-image: url('../images/tlo500.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 250px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 0 7px rgb(56, 56, 56);
+  font-size: $fzGlobal;
+
+  @include breakpoint(sm){
+    background-image: url('../images/tlo800.jpg');
+  }
+
+  @include breakpoint(md){
+    background-attachment: fixed;
+    background-position-x: 60%;
+   }
+
+  @include breakpoint(lg){
+    background-image: url('../images/tlo1200.jpg');
+    background-position-x: 0;
+   }
+
+  @include breakpoint(xl){
+   background-image: url('../images/tlo2000.jpg');
+  }
+
+  @include breakpoint(xxl){
+    background-image: url('../images/tlo4000.jpg');
+   }
+ 
+
+  &__bgc {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__description {
+    position: relative;
+    margin: 20% $marginFromLeft;
+    font-size: 4em;
+    font-family: $sourcesanspro, Arial, Helvetica, sans-serif;
+
+    @include breakpoint(xs){
+      margin: 20% 60px;
+    }
+
+    @include breakpoint(sm){
+      font-size: 4.5em;
+    }
+
+    @include breakpoint(md){
+      font-size: 5.5em;
+      margin: 10% 290px;
+     }
+
+     @include breakpoint(xl){
+      margin: 10% 390px;
+     }
+
+     @include breakpoint(xxl){
+      margin: 10% 490px;
+     }
+
+    &--name{
+      animation: showName .3s;
+      animation-timing-function: cubic-bezier(.9,.03,.69,.22);
+    }
+
+    &--surname{
+      animation: showSurname .5s .1s linear both;
+    }
+
+    &--job { 
+      padding: 10px 0;
+      font-size: 0.7em;
+      animation: showJob .3s .6s linear both;
+
+      @include breakpoint(sm){
+        font-size: 0.6em;
+      }
+    }
+  }
+}
+
+
+@keyframes showName {
+  0%{ transform: translateY(-200%); opacity: 0;}
+  100%{ transform: translateY(0); opacity: 1;}
+}
+
+@keyframes showSurname {
+  0%{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100%{ 
+    transform: translateX(0); 
+    opacity: 1;}
+}
+
+@keyframes showJob {
+  0%{
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100%{ 
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}

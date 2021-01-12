@@ -1,0 +1,13 @@
+@mixin breakpoint($breakpoint) {
+  @if map-has-hey($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  } @else if type_of( $breakpoint ) == number and unit( $breakpoint ) == px or unit( $breakpoint ) == em or unit( $breakpoint ) == rem {
+    @media (min-width: $breakpoint ) {
+      @content;
+    }
+  } @else {
+    @warn "You can't download any value from `#{$breakpoint}`. It is not defined in the map of `$breakpoints` or is an invalid number for px, em, or rem.";
+  }
+}

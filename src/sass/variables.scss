@@ -1,0 +1,24 @@
+//font-size
+$fSizeHeader: 42px;
+$fSizeAbout: 20px;
+$fzGlobal: 8px;
+
+//font-family
+$sourcesanspro: 'Source Sans Pro', sans-serif;
+$ptsans: 'PT Sans', sans-serif;
+$lato: 'Lato', sans-serif;
+
+//margin
+$marginFromLeft: 20px;
+
+//maps of breakpoints
+
+$breakpoints: (
+  xs: 512px,
+  xsm: 700px,
+  sm: 768px,
+  md: 896px,
+  lg: 1152px,
+  xl: 1280px,
+  xxl: 1412px,
+)

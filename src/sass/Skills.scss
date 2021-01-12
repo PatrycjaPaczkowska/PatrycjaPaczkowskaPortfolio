@@ -1,0 +1,61 @@
+.skills {
+  background-color: #444349;
+  background-image: url("../images/stardust.png");
+  background-attachment: fixed;
+  padding: $marginFromLeft $marginFromLeft $marginFromLeft * 3;
+  box-shadow: 0 1px 6px 2px rgb(109, 109, 109);
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: $fzGlobal;
+
+  @include breakpoint(sm) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__title,
+  &__mainTitle {
+    margin: $marginFromLeft * 2 0 $marginFromLeft;
+    font-weight: 400;
+    text-align: center;
+    font-size: 2.5em;
+    @include breakpoint(md) {
+      margin: $marginFromLeft * 1.5 $marginFromLeft;
+      text-align: left;
+      // font-size: 2.5em;
+    }
+  }
+  &__mainTitle {
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__listOfMainTech,
+  &__listOfOtherTech,
+  &__listOfLang {
+    list-style: none;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size:  2.5em;
+
+    @include breakpoint(sm) {
+      margin: 0 5px;
+    }
+    p {
+      background-color: #ffffff67;
+      margin: 8px auto;
+      padding: 10px 15px;
+      color: white;
+      transition: 0.2s;
+      border-radius: 2px;
+      max-width: 350px;
+      min-width: 300px;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.541);
+      }
+    }
+  }
+}

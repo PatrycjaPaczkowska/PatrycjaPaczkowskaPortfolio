@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PatrycjaPaczkowskaPortfolio/static/css/main.b28e982b.chunk.css",
+    "main.js": "/PatrycjaPaczkowskaPortfolio/static/js/main.bb399cf0.chunk.js",
+    "main.js.map": "/PatrycjaPaczkowskaPortfolio/static/js/main.bb399cf0.chunk.js.map",
+    "runtime-main.js": "/PatrycjaPaczkowskaPortfolio/static/js/runtime-main.21f39420.js",
+    "runtime-main.js.map": "/PatrycjaPaczkowskaPortfolio/static/js/runtime-main.21f39420.js.map",
+    "static/js/2.27a5ea9c.chunk.js": "/PatrycjaPaczkowskaPortfolio/static/js/2.27a5ea9c.chunk.js",
+    "static/js/2.27a5ea9c.chunk.js.map": "/PatrycjaPaczkowskaPortfolio/static/js/2.27a5ea9c.chunk.js.map",
+    "index.html": "/PatrycjaPaczkowskaPortfolio/index.html",
+    "static/css/main.b28e982b.chunk.css.map": "/PatrycjaPaczkowskaPortfolio/static/css/main.b28e982b.chunk.css.map",
+    "static/js/2.27a5ea9c.chunk.js.LICENSE.txt": "/PatrycjaPaczkowskaPortfolio/static/js/2.27a5ea9c.chunk.js.LICENSE.txt",
+    "static/media/me.60792bed.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/me.60792bed.jpg",
+    "static/media/salonpiekna.d3c0afcc.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/salonpiekna.d3c0afcc.jpg",
+    "static/media/savings.98a18a36.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/savings.98a18a36.jpg",
+    "static/media/main.scss": "/PatrycjaPaczkowskaPortfolio/static/media/tlo800.3375dd29.jpg",
+    "static/media/todo.cfc9798e.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/todo.cfc9798e.jpg",
+    "static/media/todonew.6a25f6ea.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/todonew.6a25f6ea.jpg",
+    "static/media/welcome.398d825f.jpg": "/PatrycjaPaczkowskaPortfolio/static/media/welcome.398d825f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21f39420.js",
+    "static/js/2.27a5ea9c.chunk.js",
+    "static/css/main.b28e982b.chunk.css",
+    "static/js/main.bb399cf0.chunk.js"
+  ]
+}

@@ -5,7 +5,7 @@ This is link to website: https://patrycjapaczkowska.github.io/PatrycjaPaczkowska
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Short Description
-this is my portfolio with projects and the most important information about me.
+This is my portfolio with projects and the most important information about me.
 
 ## Technologies 
 * React Create App 17.0.1

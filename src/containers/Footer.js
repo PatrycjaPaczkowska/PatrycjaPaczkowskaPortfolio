@@ -23,7 +23,6 @@ const Footer = () => {
   return (
     <section id="contact" className="contact">
       <h2 className="contact__title">Contact</h2>
-      <p className="contact__phone">882 - 813 - 487</p>
       <p className="contact__email">paczkowskapat@gmail.com</p>
       <div className="contact__social">
         <LinkSocial
